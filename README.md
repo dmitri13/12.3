@@ -42,9 +42,9 @@ select payment_id, payment_date, amount
 
 from payment
 
-where payment_date between '2005-06-15' and '2005-06-19' and amount > 10.00
+where payment_date between '2005-06-15 00:00:00' and '2005-06-18 23:59:59' and amount > 10.00
 
-![sakila2](https://github.com/dmitri13/12.3/blob/main/img/sakila2.png)
+![sakila2](https://github.com/dmitri13/12.3/blob/main/img/sakila22.png)
 ---
 
 ### Задание 3
